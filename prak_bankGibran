@@ -55,7 +55,12 @@ public:
         } else {
             saldo -= 50000;
             cout << "[Premium]    " << namaNasabah
-            cout << " -> Saldo <= Rp 10 Juta. Dipotong biaya admin Rp50.000."
+            cout << " -> Saldo <= Rp 10 Juta. Dipotong biaya admin Rp50.000." << endl;
+
         }
     }
+};
+
+int main() {
+    vector<RekeningBank*> daftarRekening;
 }

@@ -63,4 +63,6 @@ public:
 
 int main() {
     vector<RekeningBank*> daftarRekening;
+
+    daftarRekening.Push_back(new RekeningSyariah("Ahmad", 5000000));
 }

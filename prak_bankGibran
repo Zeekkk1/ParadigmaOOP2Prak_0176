@@ -6,5 +6,10 @@
 using namespace std;
 
 class Rekeningbank {
-    
+private:
+    string namaNasabah;
+    double saldo;
+
+public:
+    rekeningBank
 }

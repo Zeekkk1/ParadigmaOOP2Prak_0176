@@ -42,4 +42,6 @@ public:
         saldo -= 15000;
         cout "-->Konvensional<-- " << namaNasabah << " -> Dipotong biaya admin Rp15.000 " << endl;
     }
-}
+};
+
+class RekeningPremium

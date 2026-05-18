@@ -73,5 +73,10 @@ int main() {
     cout << "   SISTEM OTOMATISASI AKHIR BULAN BANK GIBRAN JAYA  \n";
     cout << "====================================================\n\n";
 
-    cout << "--- Pro"
+    cout << "--- PROSES PEMOTONGAN BIAYA ADMIN ---" << endl;
+    for (Rekeningbank* rek : daftarRekening){
+        rek->potongAdmin();
+    }
+
+    cou
 }

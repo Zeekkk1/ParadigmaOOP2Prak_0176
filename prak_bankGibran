@@ -19,5 +19,11 @@ public:
 
     virtual void tampilkanInfo() const {
         cout << "Nasabah: " << left << setw(15) << namaNasabah
-        cout << "Saldo Akhir : Rp " << fixed << setprecision(2) << saldo
+        cout << "Saldo Akhir : Rp " << fixed << setprecision(2) << saldo << endl;
+
     }
+};
+
+class RekeningsSyariah : public Rekeningbank {
+public:
+}

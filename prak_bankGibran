@@ -80,6 +80,15 @@ int main() {
 
     cout << "\n--- REKAP SALDO AKHIR NASABAH ---" << endl;
     for (RekeningBank* rek : daftarRekening){
-        rek->tampilkanInfo()
+        rek->tampilkanInfo();
     }
+
+    cout << "=====================================================\n";
+
+    for (RekeningBank* rek : daftarRekening){
+        delete rek;
+    }
+    daftarRekening.clear();
+
+    return 0;
 }

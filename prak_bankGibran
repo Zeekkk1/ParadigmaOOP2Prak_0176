@@ -38,5 +38,8 @@ class RekeningKonvensional : public RekeningBank{
 public:
     RekeningKonvensional(string nama, double saldoAwal) : RekeningBank(nama, SaldoAwal)
 
-    
+    void potongAdmin() override {
+        saldo -= 15000;
+        cout "-->Konvensional<-- " << namaNasabah << " -> Dipotong biaya admin Rp15.000 " << endl;
+    }
 }

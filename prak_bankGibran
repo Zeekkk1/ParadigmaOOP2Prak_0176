@@ -18,5 +18,5 @@ public:
     vitual void potongAdmin() = 0;
 
     virtual void tampilkanInfo() const {
-        cout
+        cout << "Nasabah: " << left << setw(15) << namaNasabah
     }

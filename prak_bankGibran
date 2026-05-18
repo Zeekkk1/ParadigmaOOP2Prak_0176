@@ -11,5 +11,6 @@ private:
     double saldo;
 
 public:
-    rekeningBank
-}
+    rekeningBank(string nama, double saldoAwal) : namaNasabah(nama)
+
+    virtual ~RekeninBank

@@ -65,7 +65,12 @@ int main() {
     vector<RekeningBank*> daftarRekening;
 
     daftarRekening.Push_back(new RekeningSyariah("Ahmad", 5000000));
-    daftarRekening.Push_back(new RekeningSyariah("Ahmad", 5000000));
-    daftarRekening.Push_back(new RekeningSyariah("Ahmad", 5000000));
-    daftarRekening.Push_back(new RekeningSyariah("Ahmad", 5000000));
+    daftarRekening.Push_back(new RekeningKonvensional("Budi", 2500000));
+    daftarRekening.Push_back(new RekeningPremium("Citra", 1500000));
+    daftarRekening.Push_back(new RekeningPremium("Dewi", 8000000));
+
+    cout << "====================================================\n";
+    cout << "   SISTEM OTOMATISASI AKHIR BULAN BANK GIBRAN JAYA  \n";
+    cout << "====================================================\n\n";
+    
 }

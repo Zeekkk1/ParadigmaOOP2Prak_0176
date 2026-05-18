@@ -78,5 +78,8 @@ int main() {
         rek->potongAdmin();
     }
 
-    cou
+    cout << "\n--- REKAP SALDO AKHIR NASABAH ---" << endl;
+    for (RekeningBank* rek : daftarRekening){
+        rek->tampilkanInfo()
+    }
 }

@@ -44,4 +44,9 @@ public:
     }
 };
 
-class RekeningPremium
+class RekeningPremium : public Rekekingbank {
+public:
+    Rekeningpremium(string nama, double saldoAwal) : RekeningBank(nama, saldoAwal)
+
+    void potongAdmin()
+}

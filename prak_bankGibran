@@ -26,4 +26,11 @@ public:
 
 class RekeningsSyariah : public Rekeningbank {
 public:
-}
+    RekeningSyariah(string nama, double saldoAwal) : RekeningBank(nama, saldoAwal)
+
+    void potongAdmin() override {
+        cout << "-->Syariah<--     " << namaNasabah << " -> Bebas biaya admin. " << endl;
+
+    }
+};
+

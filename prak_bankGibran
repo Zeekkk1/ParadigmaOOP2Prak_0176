@@ -36,5 +36,7 @@ public:
 
 class RekeningKonvensional : public RekeningBank{
 public:
-    RekeningKonvensional(string)
+    RekeningKonvensional(string nama, double saldoAwal) : RekeningBank(nama, SaldoAwal)
+
+    
 }

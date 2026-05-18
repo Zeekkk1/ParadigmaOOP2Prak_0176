@@ -48,5 +48,13 @@ class RekeningPremium : public Rekekingbank {
 public:
     Rekeningpremium(string nama, double saldoAwal) : RekeningBank(nama, saldoAwal)
 
-    void potongAdmin()
+    void potongAdmin() override {
+        if (saldo > 10000000) {
+            cout << "[Premium]    " << namaNasabah 
+            cout << "-> Saldo > Rp 10 Juta. Bebas biaya admin. " << endl;
+        } else {
+            saldo -= 50000;
+            cout
+        }
+    }
 }

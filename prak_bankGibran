@@ -13,4 +13,10 @@ private:
 public:
     rekeningBank(string nama, double saldoAwal) : namaNasabah(nama)
 
-    virtual ~RekeninBank
+    virtual ~RekeninBank() 
+
+    vitual void potongAdmin() = 0;
+
+    virtual void tampilkanInfo() const {
+        cout
+    }

@@ -54,7 +54,8 @@ public:
             cout << "-> Saldo > Rp 10 Juta. Bebas biaya admin. " << endl;
         } else {
             saldo -= 50000;
-            cout
+            cout << "[Premium]    " << namaNasabah
+            cout << " -> Saldo <= Rp 10 Juta. Dipotong biaya admin Rp50.000."
         }
     }
 }
